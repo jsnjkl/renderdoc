@@ -85,10 +85,10 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
-    <IncludePath>$(ProgramFiles)\Windows Kits\8.1\Debuggers\inc;$(ProgramFiles)\Windows Kits\8.1\Include\um;$(ProgramFiles)\Windows Kits\8.1\Include\shared;$(VSInstallDir)\DIA SDK\include;$(SolutionDir)\breakpad;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProgramFiles)\Windows Kits\8.1\lib\win8\um\x86;$(LibraryPath)</LibraryPath>
-    <ExecutablePath>$(ProgramFiles)\Windows Kits\8.1\bin\x86;$(ExecutablePath)</ExecutablePath>
-    <ExcludePath>$(ProgramFiles)\Windows Kits\8.1\Include\um;$(ProgramFiles)\Windows Kits\8.1\Include\shared;$(ExcludePath)</ExcludePath>
+    <IncludePath>D:\Program Files (x86)\Windows Kits\8.1\Debuggers\inc;D:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Program Files (x86)\Windows Kits\8.1\Include\shared;$(VSInstallDir)\DIA SDK\include;$(SolutionDir)\breakpad;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Program Files (x86)\Windows Kits\8.1\lib\win8\um\x86;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>D:\Program Files (x86)\Windows Kits\8.1\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <ExcludePath>D:\Program Files (x86)\Windows Kits\8.1\Include\um;D:\Program Files (x86)\Windows Kits\8.1\Include\shared;$(ExcludePath)</ExcludePath>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
